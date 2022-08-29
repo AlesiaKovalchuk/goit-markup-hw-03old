@@ -7,97 +7,121 @@
     <meta name="viewport" content="width-device-width, initial-scale=1.0"/>
     <title>Портфоліо</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body class="page">
     <header class="header">
+        <div class="container header-container">
         <nav class="main-nav">
             <a  class="header-logo-link" href="#"> Web<span class="header-logo-link-text">Studio</span></a>
-            <ul class="list">
-                <li class="list-item"><a class="link" href="./index.html">Студія </a></li>
+            <ul class="nav-list">
+                <li class="list-item"><a class="header-link" href="./index.html">Студія </a></li>
                 <li class="list-item"><a class="header-link" href="">Портфоліо </a></li>
-                <li class="list-item"><a class="link"  href="">Контакти</a></li>
+                <li class="list-item"><a class="header-link"  href="">Контакти</a></li>
             </ul>
         </nav>
         <ul class="list">
-            <li class="list-item"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="list-item"><a class="link" href="tel:+380961111111">+380961111111</a></li>
+            <div class="header-group">
+            <li class="list-item"><a class="link-address" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="list-item"><a class="link-address" href="tel:+380961111111">+380961111111</a></li>
         </ul>
+    </div>
+</div>
     </header>
     <main>
        
         <section>
             <h1 class=""></h1>
             <ul class="list">
-                <li> <button class="buttons" type="button">Усі</button></li>
-                <li> <button class="buttons" type="button">Веб-сайти</button></li>
-                <li> <button class="buttons" type="button">Додатки</button></li>
-                <li> <button class="buttons" type="button">Дизайн</button></li>
-                <li> <button class="buttons" type="button">Маркетинг</button></li>
+                <li> <button type="button" class="main-buttons" >Усі</button></li>
+                <li> <button type="button" class="main-buttons">Веб-сайти</button></li>
+                <li> <button type="button" class="main-buttons"">Додатки</button></li>
+                <li> <button type="button" class="main-buttons">Дизайн</button></li>
+                <li> <button type="button" class="main-buttons"">Маркетинг</button></li>
             </ul>
             <ul class="list">
                 <li class="works">
                     <a class="link" href=""> 
-                    <img class="img" src="./homework/Images/imagesbody/images portfolio/img web.jpg" alt="технокряк" width="370" height="294">
-        
-                    <h2 class="basic-points">Технокряк</h2>
-                    <p class="points">Веб-сайт</p>
+                    <img class="img" src="./Images/imagesbody/images portfolio/img web.jpg" alt="технокряк" width="370" height="294">
+                    <div>        
+                    <h2 class="basic-point">Технокряк</h2>
+                    <p class="point">Веб-сайт</p>
+                    </div>
                     </a>
                 </li>
                 <li class="works">
                     <a class="link" href="">
-                    <img class="img" src="./homework/Images/imagesbody/images portfolio/img design.jpg" alt="Постер дизайну" width="370" height="294">
-                    <h2 class="basic-points">Постер New Orlean vs Golden Star</h2>
-                    <p class="points">Дизайн</p>
+                    <img class="img" src="./Images/imagesbody/images portfolio/img design.jpg" alt="Постер дизайну" width="370" height="294">
+                    <div>
+                    <h2 class="basic-point">Постер New Orlean vs Golden Star</h2>
+                    <p class="point">Дизайн</p>
+                    </div>
                     </a>
                 </li>
                 <li class="works">
                     <a class="link" href="">
-                    <img class="img" src="./homework/Images/imagesbody/images portfolio/img addition.jpg" alt="Додаток" width="370" height="294">
-                    <h2 class="basic-points">Ресторан Seafood</h2>
-                    <p class="points">Додаток</p>
+                    <img class="img" src="./Images/imagesbody/images portfolio/img addition.jpg" alt="Додаток" width="370" height="294">
+                    <div>
+                    <h2 class="basic-point">Ресторан Seafood</h2>
+                    <p class="point">Додаток</p>
+                    </div>
                     </a>
                 </li>
                 <li class="works">
                     <a class="link" href="">
-                    <img class="img" src="./homework/Images/imagesbody/images portfolio/img progect prime.jpg" alt="Проєкт прайм" width="370" height="294">
-                    <h2 class="basic-points">Проєкт Prime</h2>
-                    <p class="points">Маркетинг</p>
+                    <img class="img" src="./Images/imagesbody/images portfolio/img progect prime.jpg" alt="Проєкт прайм" width="370" height="294">
+                    <div>
+                    <h2 class="basic-point">Проєкт Prime</h2>
+                    <p class="point">Маркетинг</p>
+                    </div>
+                </a>
+                </li>
+                <li class="works">
+                    <a class="link" href="">
+                    <img class="img" src="./Images/imagesbody/images portfolio/img progect boxes.jpg" alt="Проєкт Boxes" width="370" height="294">
+                    <div>
+                    <h2 class="basic-point">Проєкт Boxes</h2>
+                    <p class="point">Додаток</p>
+                    </div>
                     </a>
                 </li>
                 <li class="works">
                     <a class="link" href="">
-                    <img class="img" src="./homework/Images/imagesbody/images portfolio/img progect boxes.jpg" alt="Проєкт Boxes" width="370" height="294">
-                    <h2 class="basic-points">Проєкт Boxes</h2>
-                    <p class="points">Додаток</p>
+                    <img class="img" src="./Images/imagesbody/images portfolio/img web2.jpg" alt="Веб-сайт" width="370" height="294">
+                    <div>
+                    <h2 class="basic-point">Inspiration has no Borders</h2>
+                    <p class="point">Веб-сайт</p>
+                    </div>
                     </a>
                 </li>
                 <li class="works">
                     <a class="link" href="">
-                    <img class="img" src="./homework/Images/imagesbody/images portfolio/img web2.jpg" alt="Веб-сайт" width="370" height="294">
-                    <h2 class="basic-points">Inspiration has no Borders</h2>
-                    <p class="points">Веб-сайт</p>
+                    <img class="img" src="./Images/imagesbody/images portfolio/img design edition.jpg" alt="Видання Limited Edition" width="370" height="294">
+                    <div>
+                    <h2 class="basic-point">Видання Limited Edition</h2>
+                    <p class="point">Дизайн</p>
+                    </div>
                     </a>
                 </li>
                 <li class="works">
                     <a class="link" href="">
-                    <img class="img" src="./homework/Images/imagesbody/images portfolio/img design edition.jpg" alt="Видання Limited Edition" width="370" height="294">
-                    <h2 class="basic-points">Видання Limited Edition</h2>
-                    <p class="points">Дизайн</p>
+                    <img class="img" src="./Images/imagesbody/images portfolio/img progect lab.jpg" alt="Проєкт LAB" width="370" height="294">
+                    <div>
+                    <h2 class="basic-point">Проєкт LAB</h2>
+                    <p class="point">Маркетинг</p>
+                    </div>
                     </a>
                 </li>
                 <li class="works">
                     <a class="link" href="">
-                    <img class="img" src="./homework/Images/imagesbody/images portfolio/img progect lab.jpg" alt="Проєкт LAB" width="370" height="294">
-                    <h2 class="basic-points">Проєкт LAB</h2>
-                    <p class="points">Маркетинг</p>
-                    </a>
-                </li>
-                <li class="works">
-                    <a class="link" href="">
-                    <img class="img" src="./homework/Images/imagesbody/images portfolio/img growing business.jpg" alt="Додаток для бізнесу" width="370"height="294">
-                    <h2 class="basic-points">Growing Business</h2>
-                    <p class="points">Додаток</p>
+                    <img class="img" src="./Images/imagesbody/images portfolio/img growing business.jpg" alt="Додаток для бізнесу" width="370"height="294">
+                    <div>
+                    <h2 class="basic-point">Growing Business</h2>
+                    <p class="point">Додаток</p>
+                    </div>
                     </a>
                 </li>
             </ul>
