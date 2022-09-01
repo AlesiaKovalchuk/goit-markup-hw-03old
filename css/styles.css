@@ -208,6 +208,7 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    
 }
 .header-logo-link {
         font-family:Raleway,sans-serif;
@@ -444,10 +445,9 @@ p {
     margin-right: auto;
 }
 .list-presents {
-    display: flex;
+    display:block;
     flex-wrap: wrap;
-    justify-content: space-between;
-       
+          
 }
 .item-works {
     display: inline-block;
@@ -470,3 +470,11 @@ p {
         margin-right: 0;
     }
 
+.main-footer {
+    text-align:left;
+    box-sizing: border-box;
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
