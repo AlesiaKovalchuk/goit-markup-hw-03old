@@ -7,6 +7,7 @@
     --light-txt-cl:#FFFFFF;
     --accent-txt-cl:#2196F3;
     --grey-txt-cl:#757575;
+    --border-cl:#ECECEC;
         }
     
     /*reset*/
@@ -33,15 +34,14 @@
     letter-spacing: 0.03em;
     color: var(--accent-txt-cl);
 }
-
 .header {
-    background-color:var(--light-txt-cl);
-    border-bottom: 1px solid #ECECEC;
+    border-bottom: 1px solid var(--border-cl);
+        background-color: var(--light-txt-cl);
 }
-.page-header:{
-    border-bottom: 1px;
-    border-bottom: solid;
-    border-bottom: var(--grey-txt-cl);
+
+.section-header:{
+    border-bottom: 1px solid #ECECEC;
+
 }
 .header-link{
     text-decoration: none;
